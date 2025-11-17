@@ -332,6 +332,140 @@ html, body {
   color: #515662;
 }
 
+/* .sec-6 시작 */
+.sec-6 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-6 > .bg-img {
+  width: 1920px;
+}
+
+.sec-6 > .bg-img > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-6 > .text {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-6 > .text > .title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #2E3138;
+}
+
+.sec-6 > .text > .title > .bold {
+  color: #0CC291;
+}
+
+.sec-6 > .img-box {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.sec-6 > .img-box > .img-1 {
+  width: 254px;
+  margin-right: 63px;
+}
+
+.sec-6 > .img-box > .img-1 img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.sec-6 > .img-box > .img-1 img:hover,
+.sec-6 > .img-box > .img-2 img:hover,
+.sec-6 > .img-box > .img-3 img:hover,
+.sec-6 > .img-box > .img-4 img:hover {
+  transform: scale(1.03);
+}
+
+.sec-6 > .img-box > .img-2 {
+  width: 232px;
+  margin-left: 74px;
+  margin-right: 74px;
+}
+
+.sec-6 > .img-box > .img-2 img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.sec-6 > .img-box > .img-3 {
+  width: 250px;
+  margin-left: 65px;
+  margin-right: 64px;
+}
+
+.sec-6 > .img-box > .img-3 img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.sec-6 > .img-box > .img-4 {
+  width: 247px;
+  margin-left: 80px;
+}
+
+.sec-6 > .img-box > .img-4 img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.sec-6 .vector {
+  height: 309px;
+}
+
+.sec-6 .vector > img {
+  display: block;
+  height: 100%;
+}
+
+.sec-6 > .img-box > .img-1 > .text-box,
+.sec-6 > .img-box > .img-2 > .text-box,
+.sec-6 > .img-box > .img-3 > .text-box,
+.sec-6 > .img-box > .img-4 > .text-box {
+  text-align: center;
+  margin-top: 54px;
+}
+
+.sec-6 > .img-box > .img-1 > .text-box > .tit,
+.sec-6 > .img-box > .img-2 > .text-box > .tit,
+.sec-6 > .img-box > .img-3 > .text-box > .tit,
+.sec-6 > .img-box > .img-4 > .text-box > .tit {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1A624F;
+}
+
+.sec-6 > .img-box > .img-1 > .text-box > .sub,
+.sec-6 > .img-box > .img-2 > .text-box > .sub,
+.sec-6 > .img-box > .img-3 > .text-box > .sub,
+.sec-6 > .img-box > .img-4 > .text-box > .sub {
+  font-size: 16px;
+  color: #515662;
+  line-height: 1.3;
+  margin-top: 8px;
+}
+
 /* .sec-8 시작 */
 .sec-8 {
   position: relative;
