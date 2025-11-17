@@ -1273,6 +1273,272 @@ body::-webkit-scrollbar-track {
   width: 100%;
 }
 
+/* .sec-b-5 시작 */
+.sec-b-5 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-b-5 > .img-box {
+  width: 1920px;
+}
+
+.sec-b-5 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-5 > .text {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  font-weight: 600;
+  color: #2E3138;
+}
+
+.sec-b-5 > .text > .color {
+  color: #0CC291;
+}
+
+.sec-b-5 > .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-b-5 .info-1 > .info-img,
+.sec-b-5 .info-2 > .info-img,
+.sec-b-5 .info-3 > .info-img {
+  position: absolute;
+  top: 267px;
+  left: 210px;
+  width: 480px;
+}
+
+.sec-b-5 .info-1 > .info-img > img,
+.sec-b-5 .info-2 > .info-img > img,
+.sec-b-5 .info-3 > .info-img > img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.sec-b-5 .info-1 > .info-img > .button,
+.sec-b-5 .info-2 > .info-img > .button,
+.sec-b-5 .info-3 > .info-img > .button {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.sec-b-5 .info-1 > .info-img > .button > button,
+.sec-b-5 .info-2 > .info-img > .button > button,
+.sec-b-5 .info-3 > .info-img > .button > button {
+  padding: 6px 10px;
+  background-color: #D4F9F0;
+  color: #1A624F;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sec-b-5 .info-1 > .info-img > .tit,
+.sec-b-5 .info-2 > .info-img > .tit,
+.sec-b-5 .info-3 > .info-img > .tit {
+  position: absolute;
+  top: 76px;
+  left: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2E3138;
+}
+
+.sec-b-5 .info-1 > .info-img > .sub,
+.sec-b-5 .info-2 > .info-img > .sub,
+.sec-b-5 .info-3 > .info-img > .sub {
+  position: absolute;
+  top: 172px;
+  left: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #818897;
+}
+
+.sec-b-5 .info-1 > .info-img > .button-img,
+.sec-b-5 .info-2 > .info-img > .button-img,
+.sec-b-5 .info-3 > .info-img > .button-img {
+  position: absolute;
+  top: 79px;
+  right: 36px;
+  width: 34px;
+}
+
+.sec-b-5 .info-1 > .info-img > .button-img img,
+.sec-b-5 .info-2 > .info-img > .button-img img,
+.sec-b-5 .info-3 > .info-img > .button-img img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-5 > .info-1 > .info-img .num,
+.sec-b-5 > .info-2 > .info-img .num,
+.sec-b-5 > .info-3 > .info-img .num {
+  position: absolute;
+  top: 443px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.sec-b-5 > .info-1 > .info-img .num > p,
+.sec-b-5 > .info-2 > .info-img .num > p,
+.sec-b-5 > .info-3 > .info-img .num > p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #2E3138;
+}
+
+.sec-b-5 > .info-1 > .info-img .num > .down,
+.sec-b-5 > .info-2 > .info-img .num > .down,
+.sec-b-5 > .info-3 > .info-img .num > .down {
+  width: 36px;
+}
+
+.sec-b-5 > .info-1 > .info-img .num > .down > img,
+.sec-b-5 > .info-2 > .info-img .num > .down > img,
+.sec-b-5 > .info-3 > .info-img .num > .down > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-5 > .info-1 > .info-img .num > .up {
+  width: 36px;
+}
+
+.sec-b-5 > .info-1 > .info-img .num > .up > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-5 > .info-1 > .info-img > .tree {
+  position: absolute;
+  top: 288px;
+  right: 37px;
+  width: 234px;
+}
+
+.sec-b-5 > .info-1 > .info-img > .tree > img {
+  display: block;
+  width: 100%;
+}
+
+
+/* .sec-b-6 시작 */
+.sec-b-6 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-b-6 > .img-box {
+  width: 1920px;
+}
+
+.sec-b-6 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-6 > .text {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  font-weight: 600;
+  color: #2E3138;
+}
+
+.sec-b-6 > .text > .color {
+  color: #0CC291;
+}
+
+.sec-b-6 > .info-box {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sec-b-6 > .info-box > .l-info,
+.sec-b-6 > .info-box > .r-info {
+  position: relative;
+  width: 735px;
+}
+
+.sec-b-6 > .info-box > .l-info img,
+.sec-b-6 > .info-box > .r-info img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-6 > .info-box > .l-info > .title {
+  position: absolute;
+  top: 92px;
+  font-weight: 600;
+  color: #E9F9F4;
+  font-size: 28px;
+  margin-left: 36px;
+}
+
+.sec-b-6 > .info-box > .l-info > .sub {
+  position: absolute;
+  top: 150px;
+  margin-left: 36px;
+  color: #FFFFFF;
+  line-height: 1.5;
+}
+
+.sec-b-6 > .info-box > .r-info > .title {
+  position: absolute;
+  top: 92px;
+  font-weight: 600;
+  color: #0CC291;
+  font-size: 28px;
+  margin-left: 36px;
+}
+
+.sec-b-6 > .info-box > .r-info > .sub {
+  position: absolute;
+  top: 150px;
+  margin-left: 36px;
+  color: #2E3138;
+  line-height: 1.5;
+}
+
+.sec-b-6 > .info-box > .l-info .next,
+.sec-b-6 > .info-box > .r-info .next {
+  position: absolute;
+  top: 77px;
+  right: 43px;
+  width: 40px;
+}
+
+.sec-b-6 > .info-box > .l-info .next > img,
+.sec-b-6 > .info-box > .r-info .next > img {
+  display: block;
+  width: 100%;
+}
+
 /* .sec-b-7 시작 */
 .sec-b-7 {
   position: relative;
