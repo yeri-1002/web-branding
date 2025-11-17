@@ -125,6 +125,213 @@ html, body {
   color: #FFF;
 }
 
+/* .sec-4 시작 */
+.sec-4 {
+  position: relative;
+  width: 1920px;
+  padding: 136px 0;
+  margin: 0 auto;
+}
+
+.sec-4 > .con {
+  width: 1500px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.sec-4 > .con > .top,
+.sec-4 > .con > .bottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec-4 > .con > .bottom {
+  margin-top: 130px;
+}
+
+.sec-4 > .con > .bottom > .l-img > img:nth-child(2) {
+  position: absolute;
+  top: -60px;
+  left: 12px;
+  display: block;
+  width: 124px;
+}
+
+.sec-4 > .con > .bottom > .text {
+  margin-right: 32px;
+}
+
+.sec-4 > .con > .top > .text > .story,
+.sec-4 > .con > .bottom > .text > .service {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #0CC291;
+}
+
+.sec-4 > .con > .top > .text > .title,
+.sec-4 > .con > .bottom > .text > .title {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2E3138;
+  margin-bottom: 26px;
+}
+
+.sec-4 > .con > .top > .text > .sub,
+.sec-4 > .con > .bottom > .text > .sub {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #515662;
+}
+
+.sec-4 > .con > .top > .text > .small,
+.sec-4 > .con > .bottom > .text > .small {
+  margin-top: 8px;
+  margin-bottom: 60px;
+  line-height: 1.5;
+  color: #818897;
+}
+
+.sec-4 > .con > .top > .text > .button,
+.sec-4 > .con > .bottom > .text > .button {
+  display: flex;
+  gap: 14px;
+}
+
+.sec-4 > .con > .top > .text > .button > div,
+.sec-4 > .con > .bottom > .text > .button > div {
+  box-sizing: border-box;
+  transition: all .3s;
+}
+
+.sec-4 > .con > .top > .text > .button > .b-1,
+.sec-4 > .con > .bottom > .text > .button > .b-1 {
+  padding: 8px 22px;
+  background-color: #0CC291;
+  border: 1px solid transparent;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #FFF;
+  border-radius: 50px;
+}
+
+.sec-4 > .con > .top > .text > .button > .b-2,
+.sec-4 > .con > .bottom > .text > .button > .b-2 {
+  padding: 8px 22px;
+  background-color: transparent;
+  border: 1px solid #0CC291;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #089B73;
+  border-radius: 50px;
+}
+
+.sec-4 > .con > .top > .text > .button > .b-3,
+.sec-4 > .con > .bottom > .text > .button > .b-3 {
+  padding: 8px 22px;
+  border: 1px solid #0CC291;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #089B73;
+  border-radius: 50px;
+}
+
+.sec-4 > .con > .top > .text > .button > .b-2:hover,
+.sec-4 > .con > .top > .text > .button > .b-3:hover,
+.sec-4 > .con > .bottom > .text > .button > .b-2:hover,
+.sec-4 > .con > .bottom > .text > .button > .b-3:hover {
+  background-color: #0CC291;
+  color: #FFF;
+}
+
+.sec-4 > .con > .top > .r-img {
+  width: 740px;
+}
+
+.sec-4 > .con > .top > .r-img > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-4 > .con > .bottom > .l-img {
+  width: 740px;
+}
+
+.sec-4 > .con > .bottom > .l-img > img {
+  display: block;
+  width: 100%;
+}
+
+/* .sec-5 시작 */
+.sec-5 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-5 > .bg-img {
+  width: 1920px;
+}
+
+.sec-5 > .bg-img > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-5 > .img-box {
+  position: absolute;
+  top: 145px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 394px;
+}
+
+.sec-5 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-5 > .text {
+  position: absolute;
+  top: 488px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.sec-5 > .text > .title {
+  position: relative;
+  display: block;
+  font-size: 29px;
+  font-weight: 600;
+  color: #2E3138;
+  z-index: 5;
+}
+
+.sec-5 > .text > .title > .text-bg {
+  position: absolute;
+  top: 24px;
+  left: 126px;
+  width: 672px;
+  z-index: -1;
+}
+
+.sec-5 > .text > .title > .text-bg > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-5 > .text > .sub {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #515662;
+}
+
 /* .sec-8 시작 */
 .sec-8 {
   position: relative;
@@ -289,6 +496,46 @@ html, body {
   width: 100%;
 }
 
+.sec-8 > .img > .img-3 > .text {
+  position: absolute;
+  top: 33px;
+  left: 790px;
+}
+
+.sec-8 > .img > .img-3 > .text > .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2E3138;
+}
+
+.sec-8 > .img > .img-3 > .text .sub {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #515662;
+}
+
+.sec-8 > .img > .img-3 .icon {
+  position: absolute;
+  top: 162px;
+  left: 814px;
+  display: block;
+  width: 227px;
+}
+
+.sec-8 > .img > .img-3 .icon > img {
+  width: 100%;
+}
+
+.sec-8 > .img > .img-3 .button {
+  position: absolute;
+  top: 45px;
+  left: 1030px;
+}
+
 .sec-8 > .img > .img-4 .icon {
   display: block;
   width: 124px;
@@ -296,6 +543,46 @@ html, body {
 
 .sec-8 > .img > .img-4 .icon > img {
   width: 100%;
+}
+
+.sec-8 > .img > .img-4 > .text {
+  position: absolute;
+  top: 33px;
+  left: 1170px;
+}
+
+.sec-8 > .img > .img-4 > .text > .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2E3138;
+}
+
+.sec-8 > .img > .img-4 > .text .sub {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #515662;
+}
+
+.sec-8 > .img > .img-4 .icon {
+  position: absolute;
+  top: 162px;
+  right: 124px;
+  display: block;
+  width: 124px;
+}
+
+.sec-8 > .img > .img-4 .icon > img {
+  width: 100%;
+}
+
+.sec-8 > .img > .img-4 .button {
+  position: absolute;
+  top: 45px;
+  left: 1412px;
 }
 
 .sec-8 > .img .button {
