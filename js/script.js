@@ -35,3 +35,25 @@ const bottomB3 = document.querySelector('.sec-4 > .con > .bottom > .text > .butt
     bottomB1.style.color = '#FFF';
   });
 });
+
+const target = document.querySelector('.sec-3 .r-img a img');
+let hasWiggled = false; // 이미 흔들렸는지 상태 저장
+
+window.addEventListener('scroll', () => {
+  const sec3 = document.querySelector('.sec-3');
+  const rect = sec3.getBoundingClientRect();
+  const windowHeight = window.innerHeight;
+
+  // sec-3이 화면에 들어왔을 때 && 아직 흔들리지 않은 경우
+  if (rect.top < windowHeight * 0.6 && rect.bottom > 0 && !hasWiggled) {
+    target.classList.remove('wiggle');
+    void target.offsetWidth; // 애니메이션 리셋
+    target.classList.add('wiggle');
+    hasWiggled = true;
+  }
+
+  // sec-3이 화면에서 완전히 나갔을 때 상태 리셋
+  if (rect.top > windowHeight || rect.bottom < 0) {
+    hasWiggled = false;
+  }
+});

@@ -125,6 +125,104 @@ html, body {
   color: #FFF;
 }
 
+/* .sec-3 시작 */
+.sec-3 {
+  position: relative;
+  width: 1920px;
+  padding-top: 136px;
+  margin: 0 auto;
+}
+
+.sec-3 > .img-box {
+  width: 1920px;
+}
+
+.sec-3 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-3 > .text {
+  position: absolute;
+  top: 165px;
+  left: 210px;
+}
+
+.sec-3 > .text > .title {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: #2E3138;
+  z-index: 1;
+}
+
+.sec-3 > .text > .text-bg {
+  position: absolute;
+  top: 48px;
+  left: 66px;
+  width: 159px;
+}
+
+.sec-3 > .text > .text-bg > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-3 > .text > .sub {
+  margin-top: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #515662;
+  line-height: 1.4;
+}
+
+.sec-3 > .r-img > img:nth-child(1) {
+  position: absolute;
+  top: 310px;
+  left: 666px;
+  display: block;
+  width: 927px;
+}
+
+.sec-3 > .r-img > a > img {
+  position: absolute;
+  top: 360px;
+  left: 1156px;
+  display: block;
+  width: 252px;
+  transition: transform 0.2s;
+}
+
+.sec-3 .r-img a img.wiggle {
+  animation: wiggle 0.6s ease-out;
+}
+
+
+@keyframes wiggle {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(2deg); }
+  50%  { transform: rotate(-2deg); }
+  75%  { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.sec-3 > .r-img > img:nth-child(3) {
+  position: absolute;
+  bottom: 200px;
+  right: 304px;
+  display: block;
+  width: 65px;
+}
+
+.sec-3 > .r-img .text {
+  position: absolute;
+  font-size: 8px;
+  color: #C0C3CA;
+  bottom: 165px;
+  right: 220px;
+}
+
+
 /* .sec-4 시작 */
 .sec-4 {
   position: relative;
