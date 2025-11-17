@@ -818,6 +818,7 @@ html, body {
 
 .sec-10 .f-text > .m-text {
   margin-top: 20px;
+  font-size: 14px;
 }
 
 .sec-10 .f-text > .m-text > .m-t {
@@ -832,6 +833,7 @@ html, body {
 
 .sec-10 .f-text > .b-text {
   margin-top: 20px;
+  font-size: 14px;
 }
 
 .sec-10 .f-text > .b-text > .b-t {
