@@ -136,7 +136,6 @@ html, body {
 .sec-4 > .con {
   width: 1500px;
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 
 .sec-4 > .con > .top,
@@ -779,3 +778,63 @@ html, body {
   color: #2E3138;
   z-index: 5;
 }
+
+/* .sec-10 시작 */
+.sec-10 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-10 > .f-img {
+  width: 1920px;
+}
+
+.sec-10 > .f-img > img {
+  width: 100%;
+}
+
+.sec-10 .f-text {
+  position: absolute;
+  top: 60px;
+  left: 210px;
+  color: #515662;
+}
+
+.sec-10 .f-text > .f-logo {
+  width: 135px;
+}
+
+.sec-10 .f-text > .f-logo > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-10 .f-text > .top-text {
+  display: flex;
+  gap: 14px;
+  margin-top: 36px;
+}
+
+.sec-10 .f-text > .m-text {
+  margin-top: 20px;
+}
+
+.sec-10 .f-text > .m-text > .m-t {
+  margin-bottom: 2px;
+}
+
+.sec-10 .f-text > .m-text > .m-t,
+.sec-10 .f-text > .m-text > .m-b {
+  display: flex;
+  gap: 10px;
+}
+
+.sec-10 .f-text > .b-text {
+  margin-top: 20px;
+}
+
+.sec-10 .f-text > .b-text > .b-t {
+  margin-bottom: 2px;
+}
+
