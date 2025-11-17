@@ -65,6 +65,23 @@ body::-webkit-scrollbar-track {
 /* 스크롤바 커스텀 끝 */
 
 /* sec-1 시작 */
+.sec-1 {
+  position: relative;
+}
+
+.sec-1 > .menu {
+  position: absolute;
+  width: 140px;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sec-1 > .menu img {
+  display: block;
+  width: 100%;
+}
+
 .sec-1 > .main {
   width: 1920px;
   margin: 0 auto;
@@ -946,63 +963,362 @@ body::-webkit-scrollbar-track {
 }
 
 /* .sec-10 시작 */
-.sec-10 {
+.sec-10,
+.sec-b-8 {
   position: relative;
   width: 1920px;
   margin: 0 auto;
 }
 
-.sec-10 > .f-img {
+.sec-10 > .f-img,
+.sec-b-8 > .f-img {
   width: 1920px;
 }
 
-.sec-10 > .f-img > img {
+.sec-10 > .f-img > img,
+.sec-b-8 > .f-img > img {
   width: 100%;
 }
 
-.sec-10 .f-text {
+.sec-10 .f-text,
+.sec-b-8 .f-text {
   position: absolute;
   top: 60px;
   left: 210px;
   color: #515662;
 }
 
-.sec-10 .f-text > .f-logo {
+.sec-10 .f-text > .f-logo,
+.sec-b-8 .f-text > .f-logo {
   width: 135px;
 }
 
-.sec-10 .f-text > .f-logo > img {
+.sec-10 .f-text > .f-logo > img,
+.sec-b-8 .f-text > .f-logo > img {
   display: block;
   width: 100%;
 }
 
-.sec-10 .f-text > .top-text {
+.sec-10 .f-text > .top-text,
+.sec-b-8 .f-text > .top-text {
   display: flex;
   gap: 14px;
   margin-top: 36px;
 }
 
-.sec-10 .f-text > .m-text {
+.sec-10 .f-text > .m-text,
+.sec-b-8 .f-text > .m-text {
   margin-top: 20px;
   font-size: 14px;
 }
 
-.sec-10 .f-text > .m-text > .m-t {
+.sec-10 .f-text > .m-text > .m-t,
+.sec-b-8 .f-text > .m-text > .m-t {
   margin-bottom: 2px;
 }
 
 .sec-10 .f-text > .m-text > .m-t,
-.sec-10 .f-text > .m-text > .m-b {
+.sec-10 .f-text > .m-text > .m-b,
+.sec-b-8 .f-text > .m-text > .m-t,
+.sec-b-8 .f-text > .m-text > .m-b {
   display: flex;
   gap: 10px;
 }
 
-.sec-10 .f-text > .b-text {
+.sec-10 .f-text > .b-text,
+.sec-b-8 .f-text > .b-text {
   margin-top: 20px;
   font-size: 14px;
 }
 
-.sec-10 .f-text > .b-text > .b-t {
+.sec-10 .f-text > .b-text > .b-t,
+.sec-b-8 .f-text > .b-text > .b-t {
   margin-bottom: 2px;
 }
 
+/* ------ 브랜드 페이지 ------ */
+/* .sec-b-1 시작 */
+.sec-b-1 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-b-1 > .img-box {
+  width: 1920px;
+}
+
+.sec-b-1 > .img-box img {
+  display: block;
+  width: 100%;
+}
+
+/* .sec-b-2 시작 */
+.sec-b-2 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-b-2 > .img-box {
+  width: 1920px;
+}
+
+.sec-b-2 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-2 > .text-box {
+  position: absolute;
+  top: 172px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.sec-b-2 > .text-box > .vision {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0CC291;
+}
+
+.sec-b-2 > .text-box > .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #2E3138
+}
+
+.sec-b-2 > .text-box > .title > .color {
+  color: #0CC291;
+}
+
+.sec-b-2 > .text-box > .title > .color:nth-child(2) {
+  margin-left: 8px;
+}
+
+.sec-b-2 > .text-box > .sub {
+  font-size: 20px;
+  color: #515662;
+  line-height: 1.5;
+  margin-bottom: 66px;
+}
+
+.sec-b-2 > .text-box > .button > button {
+  padding: 9px 30px;
+  border: 1px solid #0CC291;
+  background-color: #EFF7ED;
+  border-radius: 50px;
+  color: #0CC291;
+}
+
+.sec-b-2 > .text-box > .button > button:hover {
+  background-color: #0CC291;
+  color: #EFF7ED;
+}
+
+/* .sec-b-3 시작 */
+.sec-b-3 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-b-3 > .img-box {
+  width: 1920px;
+}
+
+.sec-b-3 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-3 > .con {
+  position: absolute;
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  gap: 170px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sec-b-3 > .con > .l-img {
+  width: 670px;
+}
+
+.sec-b-3 > .con > .l-img > img:nth-child(1) {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-3 > .con > .l-img > img:nth-child(2) {
+  position: absolute;
+  top: 597px;
+  left: 560px;
+  display: block;
+  width: 128px;
+}
+
+.sec-b-3 > .con > .text-box > .about {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0CC291;
+  margin-bottom: 12px;
+}
+
+.sec-b-3 > .con > .text-box > .title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #2E3138;
+  margin-bottom: 50px;
+}
+
+.sec-b-3 > .con > .text-box > .sub {
+  font-size: 18px;
+  font-weight: 400;
+  color: #515662;
+  line-height: 1.6;
+  margin-bottom: 106px;
+}
+
+.sec-b-3 > .con > .text-box .btn {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 16px;
+  color: #089B73;
+  background-color: transparent;
+  border: 1px solid #0CC291;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.sec-b-3 > .con > .text-box .btn > .arrow {
+  width: 24px;
+}
+
+.sec-b-3 > .con > .text-box .btn > .arrow > img {
+  display: block;
+  width: 100%;
+}
+
+/* .sec-b-4 시작 */
+.sec-b-4 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-b-4 > .img-box {
+  width: 1920px;
+}
+
+.sec-b-4 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-4 > .text-box {
+  position: absolute;
+  top: 86px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sec-b-4 > .text-box > .iden {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0CC291;
+  margin-bottom: 10px;;
+}
+
+.sec-b-4 > .text-box > .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.sec-b-4 > .text-box > .title > .color {
+  margin-left: 10px;
+  color: #0CC291;
+}
+
+.sec-b-4 > .text-box > .sub {
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #515662;
+}
+
+.sec-b-4 > .text-box .info {
+  width: 1365px;
+  margin-top: 112px;
+}
+
+.sec-b-4 > .text-box .info > img {
+  display: block;
+  width: 100%;
+}
+
+/* .sec-b-7 시작 */
+.sec-b-7 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-b-7 > .img-box {
+  width: 1920px;
+}
+
+.sec-b-7 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-7 .img-icon {
+  position: absolute;
+  top: 192px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 389px;
+  text-align: center;
+}
+
+.sec-b-7 .img-icon > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-7 .info {
+  position: absolute;
+  top: 379px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 28px;
+  white-space: nowrap;
+  font-size: 38px;
+  font-weight: 600;
+  color: #515662;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.sec-b-7 .info > .color {
+  font-size: 40px;
+  font-weight: 700;
+  color: #089B73;
+}
