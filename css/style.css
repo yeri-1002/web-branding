@@ -1304,23 +1304,25 @@ body::-webkit-scrollbar-track {
 }
 
 .sec-b-5 > .info {
+  position: absolute;
+  top: 267px;
+  left: 210px;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .sec-b-5 .info-1 > .info-img,
 .sec-b-5 .info-2 > .info-img,
 .sec-b-5 .info-3 > .info-img {
-  position: absolute;
-  top: 267px;
-  left: 210px;
+  position: relative;
   width: 480px;
 }
 
 .sec-b-5 .info-1 > .info-img > img,
 .sec-b-5 .info-2 > .info-img > img,
 .sec-b-5 .info-3 > .info-img > img {
-  position: relative;
+  /* position: relative; */
   display: block;
   width: 100%;
 }
@@ -1384,58 +1386,84 @@ body::-webkit-scrollbar-track {
   width: 100%;
 }
 
-.sec-b-5 > .info-1 > .info-img .num,
-.sec-b-5 > .info-2 > .info-img .num,
-.sec-b-5 > .info-3 > .info-img .num {
+.sec-b-5 .info-1 > .info-img .num,
+.sec-b-5 .info-2 > .info-img .num,
+.sec-b-5 .info-3 > .info-img .num {
   position: absolute;
-  top: 443px;
+  bottom: 42px;
   left: 40px;
   display: flex;
   align-items: center;
   gap: 2px;
 }
 
-.sec-b-5 > .info-1 > .info-img .num > p,
-.sec-b-5 > .info-2 > .info-img .num > p,
-.sec-b-5 > .info-3 > .info-img .num > p {
+.sec-b-5 .info-1 > .info-img .num > p,
+.sec-b-5 .info-2 > .info-img .num > p,
+.sec-b-5 .info-3 > .info-img .num > p {
   font-size: 30px;
   font-weight: 500;
   color: #2E3138;
 }
 
-.sec-b-5 > .info-1 > .info-img .num > .down,
-.sec-b-5 > .info-2 > .info-img .num > .down,
-.sec-b-5 > .info-3 > .info-img .num > .down {
+.sec-b-5 .info-1 .num .down,
+.sec-b-5 .info-2 .num .down,
+.sec-b-5 .info-3 .num .down {
   width: 36px;
 }
 
-.sec-b-5 > .info-1 > .info-img .num > .down > img,
-.sec-b-5 > .info-2 > .info-img .num > .down > img,
-.sec-b-5 > .info-3 > .info-img .num > .down > img {
+.sec-b-5 .info-1 .num .down > img,
+.sec-b-5 .info-2 .num .down > img,
+.sec-b-5 .info-3 .num .down > img {
   display: block;
   width: 100%;
 }
 
-.sec-b-5 > .info-1 > .info-img .num > .up {
+.sec-b-5 .info-1 > .info-img .num > .up {
   width: 36px;
 }
 
-.sec-b-5 > .info-1 > .info-img .num > .up > img {
+.sec-b-5 .info-1 > .info-img .num > .up > img {
   display: block;
   width: 100%;
 }
 
-.sec-b-5 > .info-1 > .info-img > .tree {
+.sec-b-5 .info-1 > .info-img > .tree {
   position: absolute;
   top: 288px;
   right: 37px;
   width: 234px;
 }
 
-.sec-b-5 > .info-1 > .info-img > .tree > img {
+.sec-b-5 .info-1 > .info-img > .tree > img {
   display: block;
   width: 100%;
 }
+
+.sec-b-5 .info-2 > .info-img > .tree {
+  position: absolute;
+  top: 288px;
+  right: 37px;
+  width: 230px;
+}
+
+.sec-b-5 .info-2 > .info-img > .tree > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-b-5 .info-3 > .info-img > .tree {
+  position: absolute;
+  top: 278px;
+  right: 37px;
+  width: 226px;
+}
+
+.sec-b-5 .info-3 > .info-img > .tree > img {
+  display: block;
+  width: 100%;
+}
+
+
 
 
 /* .sec-b-6 시작 */
